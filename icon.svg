@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff9a5c"/></linearGradient></defs><rect width="1024" height="1024" rx="230" fill="url(#bg)"/><g fill="#ff6f91"><circle cx="738.9" cy="562.8" r="102.0"/><circle cx="712.9" cy="647.8" r="102.0"/><circle cx="656.3" cy="716.5" r="102.0"/><circle cx="577.8" cy="758.3" r="102.0"/><circle cx="489.2" cy="766.9" r="102.0"/><circle cx="404.2" cy="740.9" r="102.0"/><circle cx="335.5" cy="684.3" r="102.0"/><circle cx="293.7" cy="605.8" r="102.0"/><circle cx="285.1" cy="517.2" r="102.0"/><circle cx="311.1" cy="432.2" r="102.0"/><circle cx="367.7" cy="363.5" r="102.0"/><circle cx="446.2" cy="321.7" r="102.0"/><circle cx="534.8" cy="313.1" r="102.0"/><circle cx="619.8" cy="339.1" r="102.0"/><circle cx="688.5" cy="395.7" r="102.0"/><circle cx="730.3" cy="474.2" r="102.0"/><circle cx="512" cy="540" r="240"/><circle cx="608.7" cy="580.9" r="120.0"/><circle cx="551.5" cy="637.3" r="120.0"/><circle cx="471.1" cy="636.7" r="120.0"/><circle cx="414.7" cy="579.5" r="120.0"/><circle cx="415.3" cy="499.1" r="120.0"/><circle cx="472.5" cy="442.7" r="120.0"/><circle cx="552.9" cy="443.3" r="120.0"/><circle cx="609.3" cy="500.5" r="120.0"/></g>
+  <ellipse cx="398" cy="405" rx="66" ry="36" fill="#fff" opacity=".55" transform="rotate(-35 398 405)"/>
+  <g>
+    <ellipse cx="422" cy="525" rx="33" ry="45" fill="#2b1a2e"/>
+    <ellipse cx="602" cy="525" rx="33" ry="45" fill="#2b1a2e"/>
+    <circle cx="432.5" cy="507" r="12" fill="#fff"/>
+    <circle cx="612.5" cy="507" r="12" fill="#fff"/>
+    <ellipse cx="362" cy="585" rx="33" ry="21.000000000000004" fill="#ff3d6e" opacity=".5"/>
+    <ellipse cx="662" cy="585" rx="33" ry="21.000000000000004" fill="#ff3d6e" opacity=".5"/>
+    <path d="M461 585 Q512 651 563 585" fill="none" stroke="#2b1a2e" stroke-width="18" stroke-linecap="round"/>
+  </g><path d="M790 180 Q790 250 860 250 Q790 250 790 320 Q790 250 720 250 Q790 250 790 180Z" fill="#fff"/><path d="M240 230 Q240 270 280 270 Q240 270 240 310 Q240 270 200 270 Q240 270 240 230Z" fill="#fff"/><path d="M830 374 Q830 400 856 400 Q830 400 830 426 Q830 400 804 400 Q830 400 830 374Z" fill="#fff"/></svg>

@@ -5,6 +5,7 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 syst
 a { color: var(--accent); }
 main { max-width: 640px; margin: 0 auto; padding: 56px 20px 64px; }
 header { text-align: center; margin-bottom: 32px; }
+.logo { width: 160px; height: auto; }
 h1 { font-size: clamp(2.2rem, 8vw, 3.4rem); margin: 0 0 8px; line-height: 1.1; }
 h2 { font-size: 1.3rem; margin: 0 0 4px; }
 .tagline { color: var(--muted); margin: 0; }
