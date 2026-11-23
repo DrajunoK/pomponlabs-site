@@ -8,11 +8,11 @@ Ce dépôt ne contient que le site web (pas le code des applis).
 
 ## Contenu
 
-- `index.html` : liste des applis (Botz, Popote)
+- `index.html` : liste des applis (Botz, Popote, Zoralia)
 - `style.css` : styles (clair/sombre)
 - `logo.svg`, `logo.png` : mascotte Pompon
 - `icon.svg`, `icon*.png`, `favicon.png`, `apple-touch-icon.png` : icônes
-- `botz.png`, `popote.png` : icônes des applis
+- `botz.png`, `popote.png`, `zoralia.png` : icônes des applis
 - `CNAME` : domaine `pomponlabs.com` (GitHub Pages)
 
 ## Ajouter une appli
