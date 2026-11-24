@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pompon Labs — étagère du labo</title><link rel="icon" href="../favicon.png"><style>@font-face{font-family:"Bungee";src:url("fonts/bungee-latin.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Fredoka";src:url("fonts/fredoka-latin.woff2") format("woff2");font-weight:300 700;font-display:swap}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:500 18px/1.5 "Fredoka",system-ui,sans-serif}
+a{color:inherit}img{display:block}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+body{background:#d9f0f4;color:#2e3a4a;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;background:radial-gradient(#b9dce5 2.5px,transparent 3px) 0 0/34px 34px;opacity:.7}
+main{position:relative;max-width:1000px;margin:0 auto;padding:40px 20px;text-align:center}
+.top{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}.top img{width:110px;animation:peek 3.4s ease-in-out infinite}@keyframes peek{50%{transform:translateY(-8px) rotate(-4deg)}}
+.bubble{position:relative;background:#fff;border-radius:24px;padding:14px 22px;text-align:left;box-shadow:0 8px 0 rgba(0,0,0,.08)}.bubble::before{content:"";position:absolute;left:-12px;top:50%;margin-top:-10px;border:10px solid transparent;border-right-color:#fff;border-left:0}
+.bubble h1{font:400 clamp(1.8rem,5vw,2.8rem) "Bungee",sans-serif;margin:0;color:#e8478f}.bubble p{margin:2px 0 0;color:#5d6b7c}
+.shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:end;margin-top:46px;padding:0 26px;position:relative}
+.shelf::after{content:"";position:absolute;left:0;right:0;bottom:-34px;height:30px;border-radius:10px;background:linear-gradient(#c58a4e,#a46a34);box-shadow:0 14px 0 rgba(0,0,0,.12)}
+.jar{position:relative;z-index:1;display:grid;justify-items:center;text-decoration:none;color:inherit;transition:transform .25s}.jar:hover{transform:translateY(-12px) rotate(-2deg)}
+.jar svg{width:100%;max-width:220px}.jar img{position:absolute;top:54%;width:34%;max-width:74px;border-radius:20px;box-shadow:0 8px 16px rgba(0,0,0,.2);animation:bobj 3s ease-in-out infinite}@keyframes bobj{50%{transform:translateY(-8px)}}
+.bub{animation:rise 4s linear infinite}.b2{animation-delay:-1.4s}.b3{animation-delay:-2.6s}@keyframes rise{from{transform:translateY(20px);opacity:0}30%{opacity:.9}to{transform:translateY(-70px);opacity:0}}
+.label{position:absolute;z-index:3;bottom:6px;background:#fff;border:3px solid var(--c1);border-radius:14px;padding:2px 16px;font:400 1.15rem "Bungee",sans-serif;color:var(--c1);box-shadow:0 5px 0 rgba(0,0,0,.1);transform:rotate(-2deg)}
+.jar.empty{opacity:.55;filter:grayscale(1)}.jar.empty .q{position:absolute;top:50%;font:400 3rem "Bungee",sans-serif;color:#9bb}
+.contact{margin:62px 0 6px}.contact a{color:#e8478f;font-weight:700}footer{color:#6d7e90;font-size:.9rem}
+@media(max-width:700px){.shelf{grid-template-columns:1fr;gap:34px}.shelf::after{display:none}.jar svg{max-width:170px}}
+</style></head><body><main><div class="top"><img src="../logo.svg" alt="Pompon"><div class="bubble"><h1>Pompon Labs</h1><p>Bienvenue au labo ! Choisis une fiole.</p></div></div>
+<section class="shelf"><a class="jar" href="https://botz.pomponlabs.com" style="--c1:#e8473f;--c2:#ff8a5c" aria-label="Botz">
+<svg viewBox="0 0 200 250" aria-hidden="true"><path d="M78 14 H122 V84 L186 206 Q198 236 166 236 H34 Q2 236 14 206 L78 84Z" fill="#fff" fill-opacity=".85" stroke="#cfe3ee" stroke-width="5" stroke-linejoin="round"/>
+<path d="M44 150 Q84 134 100 150 T170 148 L186 206 Q198 236 166 236 H34 Q2 236 14 206Z" fill="#e8473f" opacity=".9"/>
+<rect x="68" y="6" width="64" height="16" rx="8" fill="#fff" stroke="#cfe3ee" stroke-width="4"/>
+<circle class="bub b1" cx="60" cy="200" r="7" fill="#fff" opacity=".8"/><circle class="bub b2" cx="140" cy="190" r="5" fill="#fff" opacity=".8"/><circle class="bub b3" cx="100" cy="212" r="6" fill="#fff" opacity=".8"/></svg>
+<img src="../botz.png" alt=""><span class="label">Botz</span></a><a class="jar" href="https://popote.pomponlabs.com" style="--c1:#f2994a;--c2:#ffcf6b" aria-label="Popote">
+<svg viewBox="0 0 200 250" aria-hidden="true"><path d="M78 14 H122 V84 L186 206 Q198 236 166 236 H34 Q2 236 14 206 L78 84Z" fill="#fff" fill-opacity=".85" stroke="#cfe3ee" stroke-width="5" stroke-linejoin="round"/>
+<path d="M44 150 Q84 134 100 150 T170 148 L186 206 Q198 236 166 236 H34 Q2 236 14 206Z" fill="#f2994a" opacity=".9"/>
+<rect x="68" y="6" width="64" height="16" rx="8" fill="#fff" stroke="#cfe3ee" stroke-width="4"/>
+<circle class="bub b1" cx="60" cy="200" r="7" fill="#fff" opacity=".8"/><circle class="bub b2" cx="140" cy="190" r="5" fill="#fff" opacity=".8"/><circle class="bub b3" cx="100" cy="212" r="6" fill="#fff" opacity=".8"/></svg>
+<img src="../popote.png" alt=""><span class="label">Popote</span></a><a class="jar" href="https://zoralia.pomponlabs.com" style="--c1:#43b184;--c2:#7ae0b8" aria-label="Zoralia">
+<svg viewBox="0 0 200 250" aria-hidden="true"><path d="M78 14 H122 V84 L186 206 Q198 236 166 236 H34 Q2 236 14 206 L78 84Z" fill="#fff" fill-opacity=".85" stroke="#cfe3ee" stroke-width="5" stroke-linejoin="round"/>
+<path d="M44 150 Q84 134 100 150 T170 148 L186 206 Q198 236 166 236 H34 Q2 236 14 206Z" fill="#43b184" opacity=".9"/>
+<rect x="68" y="6" width="64" height="16" rx="8" fill="#fff" stroke="#cfe3ee" stroke-width="4"/>
+<circle class="bub b1" cx="60" cy="200" r="7" fill="#fff" opacity=".8"/><circle class="bub b2" cx="140" cy="190" r="5" fill="#fff" opacity=".8"/><circle class="bub b3" cx="100" cy="212" r="6" fill="#fff" opacity=".8"/></svg>
+<img src="../zoralia.png" alt=""><span class="label">Zoralia</span></a></section><p class="contact">Une question, une idée : <a href="mailto:contact@pomponlabs.com">contact@pomponlabs.com</a></p><footer>© 2026 Pompon Labs</footer></main></body></html>

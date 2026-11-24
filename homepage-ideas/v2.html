@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pompon Labs — nuit néon</title><link rel="icon" href="../favicon.png"><style>@font-face{font-family:"Bungee";src:url("fonts/bungee-latin.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"Fredoka";src:url("fonts/fredoka-latin.woff2") format("woff2");font-weight:300 700;font-display:swap}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:500 18px/1.5 "Fredoka",system-ui,sans-serif}
+a{color:inherit}img{display:block}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+body{background:#0b0d18;color:#eef0ff;min-height:100vh;overflow-x:hidden}
+.sky{position:fixed;inset:0;z-index:0;background:radial-gradient(60% 50% at 18% 12%,rgba(255,111,145,.34),transparent 70%),radial-gradient(55% 45% at 85% 25%,rgba(124,108,255,.34),transparent 70%),radial-gradient(60% 50% at 50% 100%,rgba(67,177,132,.28),transparent 70%);animation:aurora 16s ease-in-out infinite alternate}
+@keyframes aurora{to{transform:scale(1.15) translateY(-20px)}}
+.stars{position:fixed;inset:0;z-index:0;background:radial-gradient(2px 2px at 10% 20%,#fff,transparent),radial-gradient(2px 2px at 70% 12%,#fff,transparent),radial-gradient(1.5px 1.5px at 40% 60%,#fff,transparent),radial-gradient(2px 2px at 88% 70%,#fff,transparent),radial-gradient(1.5px 1.5px at 22% 85%,#fff,transparent),radial-gradient(2px 2px at 58% 38%,#fff,transparent);animation:tw 4s ease-in-out infinite alternate;opacity:.7}
+@keyframes tw{to{opacity:.25}}
+main{position:relative;z-index:1;max-width:980px;margin:0 auto;padding:54px 20px 40px;text-align:center}
+.mascot{width:130px;margin:0 auto;filter:drop-shadow(0 0 28px rgba(255,111,145,.7));animation:float 5s ease-in-out infinite}@keyframes float{50%{transform:translateY(-10px)}}
+h1{font:700 clamp(2.4rem,8vw,4.2rem)/1.05 "Fredoka",sans-serif;margin:16px 0 4px;background:linear-gradient(90deg,#ff8fab,#ffd36e 50%,#7ae0b8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{color:#b9bcdf;font-size:1.2rem;margin:0 0 40px}
+.apps{display:grid;gap:16px;text-align:left}
+.app{display:grid;grid-template-columns:84px 1fr auto;align-items:center;gap:18px;padding:18px 22px;border-radius:26px;text-decoration:none;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(14px);transition:transform .2s,box-shadow .25s,border-color .25s}
+.app:hover{transform:translateY(-4px) scale(1.01);border-color:var(--c1);box-shadow:0 0 0 1px var(--c1),0 18px 50px color-mix(in srgb,var(--c1) 45%,transparent)}
+.app img{width:84px;height:84px;border-radius:22px;box-shadow:0 0 30px color-mix(in srgb,var(--c1) 60%,transparent)}
+.app h2{margin:0;font-size:1.6rem}.app p{margin:2px 0 0;color:#b9bcdf;font-size:1rem}
+.go{background:linear-gradient(135deg,var(--c1),var(--c2));color:#10121f;font-weight:700;border-radius:99px;padding:9px 22px;white-space:nowrap;box-shadow:0 0 24px color-mix(in srgb,var(--c1) 55%,transparent)}
+.contact{margin:34px 0 6px;color:#b9bcdf}.contact a{color:#ffd36e}footer{color:#7d80a8;font-size:.9rem}
+@media(max-width:620px){.app{grid-template-columns:64px 1fr}.app img{width:64px;height:64px}.go{grid-column:1/-1;text-align:center}}
+</style></head><body><div class="sky"></div><div class="stars"></div>
+<main><img class="mascot" src="../logo.svg" alt="Pompon"><h1>Pompon Labs</h1><p class="tag">De petites applis, faites avec soin.</p><section class="apps"><a class="app" href="https://botz.pomponlabs.com" style="--c1:#e8473f;--c2:#ff8a5c"><img src="../botz.png" alt=""><div><h2>Botz</h2><p>Un jeu de sport à physique : des petits robots, un réveil qui s'enfuit, solo ou à deux.</p></div><span class="go">Ouvrir</span></a><a class="app" href="https://popote.pomponlabs.com" style="--c1:#f2994a;--c2:#ffcf6b"><img src="../popote.png" alt=""><div><h2>Popote</h2><p>Planifiez vos repas de la semaine en groupe et partagez une liste de courses automatique.</p></div><span class="go">Ouvrir</span></a><a class="app" href="https://zoralia.pomponlabs.com" style="--c1:#43b184;--c2:#7ae0b8"><img src="../zoralia.png" alt=""><div><h2>Zoralia</h2><p>Les routines des enfants deviennent une aventure : missions, pas sur la carte et coffres à ouvrir.</p></div><span class="go">Ouvrir</span></a></section><p class="contact">Une question, une idée : <a href="mailto:contact@pomponlabs.com">contact@pomponlabs.com</a></p><footer>© 2026 Pompon Labs</footer></main></body></html>

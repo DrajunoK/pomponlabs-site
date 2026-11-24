@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><filter id="sh" filterUnits="userSpaceOnUse" x="-60" y="-60" width="632" height="632"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".28"/></filter><clipPath id="rr"><rect width="512" height="512" rx="112"/></clipPath></defs><g clip-path="url(#rr)">
+  <rect width="512" height="512" fill="#fff3dc"/><circle cx="430" cy="80" r="140" fill="#ffd9a8" opacity=".6"/>
+  <g stroke="#8a5a2a" stroke-width="14" stroke-linecap="round"><path d="M96 430 L400 96"/><path d="M416 430 L112 96"/></g>
+  <g fill="#ffc933" stroke="#8a5a2a" stroke-width="8"><circle cx="400" cy="96" r="20"/><circle cx="112" cy="96" r="20"/></g>
+  <g filter="url(#sh)"><circle cx="256" cy="270" r="170" fill="#ff6f91"/></g>
+  <clipPath id="ball"><circle cx="256" cy="270" r="170"/></clipPath>
+  <g clip-path="url(#ball)" fill="none" stroke-linecap="round"><g stroke="#e8478f" stroke-width="12"><path d="M70 230 C180 170 340 190 450 300"/><path d="M90 320 C200 250 340 270 430 380"/><path d="M130 160 C230 120 360 150 420 240"/><path d="M150 410 C240 340 330 360 380 440"/></g>
+  <g stroke="#ff9db4" stroke-width="9"><path d="M70 280 C190 220 330 240 440 340"/><path d="M110 200 C220 150 350 170 430 270"/><path d="M180 440 C250 380 330 400 360 460"/></g></g>
+  <path d="M330 420 C 420 440 450 360 400 330 C 360 305 320 340 350 370" fill="none" stroke="#ff6f91" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="190" cy="190" rx="38" ry="20" fill="#fff" opacity=".5" transform="rotate(-35 190 190)"/>
+  <path d="M436 174 Q436 200 462 200 Q436 200 436 226 Q436 200 410 200 Q436 200 436 174Z" fill="#ffb347" opacity="1"/><path d="M80 422 Q80 440 98 440 Q80 440 80 458 Q80 440 62 440 Q80 440 80 422Z" fill="#ffb347" opacity="1"/></g></svg>
